@@ -29,8 +29,10 @@ The following image shows the web application's appearance:
 
 
 ## URL to GitHub Repository
+https://github.com/kgarzelloni/02-professional-portfolio
 
 ## URL to Deployed Appliction
+https://kgarzelloni.github.io/02-professional-portfolio/
 
 - - -
 December 7, 2021 Karrie Garzelloni, UofA Full Stack Coding Bootcamp 
