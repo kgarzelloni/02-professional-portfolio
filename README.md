@@ -1,6 +1,8 @@
-# 02 Advanced CSS: Portfolio
 
-This objective of this assignment is to create a professional portfolio.
+# 02 Advanced CSS: Portfolio, Karrie Garzelloni
+## December 7, 2021
+
+This objective of this assignment is to create a professional portfolio for engaging future prospective employers.
 
 ## Criteria
 
