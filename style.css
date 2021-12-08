@@ -1,101 +1,105 @@
-:root {
---color:grey(#d8d3c7);
---color:rose(#d9a270);
---color:black(#1f1a1a);
---color:white(#f9f8f6);
-}
-
 * {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
 
 header {
-    display: inline;
-
-}
-
-    
-h1{
-    text-align: center;
-    
-    
-}
-.header {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    align-content: center;
-    flex-direction: row;
-    border: 1px;
-    border-style: solid;
-    padding: 20px;
-    margin: 20px;
+    flex-direction: column;
     background-color:#d8d3c7;
+    align-items: center;
+    border: whitesmoke solid;
+    border-width: 20px;
 
 }
+
+img {
+    margin: 0px;
+}
+h1 { 
+    margin-top: 0px;
+    
+}
+
+nav {
+    float:inline-end;
+} 
+
 
 ul {
     list-style-type: none;
-    display: inline-flex;
-    text-align: right;
+    display:flex;
+    margin: 0 0 10 0;
+    padding: 0;
+    
 }
 
-#about-me {
-    padding-inline: 20px;
-    border: #f9f8f6 solid;
-    margin: 10px;
-}
-#my-work {
-    padding-inline: 20px;
-    border: #f9f8f6 solid;
-    margin: 10px;
-}
-#resume {
-    padding-inline: 20px;
-    border: #f9f8f6 solid;
-    margin: 10px;
+#about-me, #my-work, #resume, #contact-me {
+    padding-inline: 10px;
+    justify-content: right;
+    
 }
 
-#contact-me {
-    padding-inline: 20px;
-    border: #f9f8f6 solid;
-    margin: 10px;
-}
 
 #bio {
     line-height: 150%;
     border: 1px;
     border-style: solid;
     padding: 20px;
-    margin: 20px;
+    border: whitesmoke solid;
+    border-width: 15px;
+    margin: 10px;
+    background-color:#d8d3c7;
 }
 
 #projects {
+
     line-height: 150%;
     border: 1px;
     border-style: solid;
     padding: 20px;
     margin: 20px;
+    border: whitesmoke solid;
+    border-width: 15px;
+    margin: 10px;
+    background-color:#d8d3c7;
+    
+    
+}
+.projects-inner-container {
+    display: flex;
+    justify-content: space-evenly;
+    display:inline-block;
+    justify-content:space-between;
+}
+figcaption {
+    display:inline-block;
 
 }
-
 #resume-updated {
     line-height: 150%;
     border: 1px; 
     border-style: solid;
     padding: 20px;
     margin: 20px;
+    border: whitesmoke solid;
+    border-width: 15px;
+    margin: 10px;
+    background-color:#d8d3c7;
 }
 
 #contact {
-    
     line-height: 150%;
     border: 1px;
     border-style: solid;
     padding: 20px;
     margin: 20px;
+    border: whitesmoke solid;
+    border-width: 15px;
+    margin: 10px;
+    background-color:#d8d3c7;
+
 }
 
 
@@ -116,10 +120,15 @@ ul {
 }
 
 
-#footer {
+footer {
+    display: flex;
     border: 1px solid;
     padding: 20px;
     margin: 20px;
     background-color:#d8d3c7;
+    justify-content: center;
+    border: whitesmoke solid;
+    border-width: 15px;
+    margin: 10px;
 }
 
