@@ -25,7 +25,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following image shows the web application's appearance:
 
-![](/Users/karriegarzelloni/Desktop/fsf-projects/Homework/02-professional-portfolio/Assets/Screen Shot.png)
+![Screen Shot](https://user-images.githubusercontent.com/94555980/145158877-c8389d85-604d-4232-9ca2-2608fb7c98d6.png)
 
 
 ## URL to GitHub Repository
