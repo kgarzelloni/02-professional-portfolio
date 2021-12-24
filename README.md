@@ -1,6 +1,8 @@
-# 02 Advanced CSS: Portfolio
 
-This objective of this assignment is to create a professional portfolio.
+# 02 Advanced CSS: Portfolio, Karrie Garzelloni
+## December 7, 2021
+
+This objective of this assignment is to create a professional portfolio for engaging future prospective employers.
 
 ## Criteria
 
@@ -25,12 +27,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following image shows the web application's appearance:
 
-![](/Users/karriegarzelloni/Desktop/fsf-projects/Homework/02-professional-portfolio/Assets/Screen Shot.png)
+![Screen Shot](https://user-images.githubusercontent.com/94555980/145158877-c8389d85-604d-4232-9ca2-2608fb7c98d6.png)
 
 
 ## URL to GitHub Repository
+https://github.com/kgarzelloni/02-professional-portfolio
 
 ## URL to Deployed Appliction
+https://kgarzelloni.github.io/02-professional-portfolio/
 
 - - -
 December 7, 2021 Karrie Garzelloni, UofA Full Stack Coding Bootcamp 

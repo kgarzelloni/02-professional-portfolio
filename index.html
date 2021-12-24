@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Full-Stack Portfolio</title>
 </head>
@@ -16,16 +18,29 @@
         <img id="logo" src="Assets/kglogo.png" alt="logo" width="200" height=200>
         <h1>Karrie Garzelloni
         </h1>
-
-        <nav class="links">
-            <ul>
-
-                <li id="about-me"> <a href="#bio">About Me</a>
-                </li>
-                <li id="my-work"> <a href="#projects">My Work</a></li>
-                <li id="resume"> <a href="#resume-updated">Resume</a></li>
-                <li id="contact-me"> <a href="#contact">Contact Me</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" id="about-me">
+                            <a class="nav-link active" aria-current="page" href="#bio">About Me</a>
+                        </li>
+                        <li class="nav-item" id="my-work">
+                            <a class="nav-link" href="#projects">My Work</a>
+                        </li>
+                        <li class="nav-item" id="resume">
+                            <a class="nav-link" href="#resume-updated">Resume</a>
+                        </li>
+                        <li class="nav-item" id="contact-me">
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
@@ -39,8 +54,6 @@
                 A perfect day for me includes coffee, time spent hiking in the desert with my family and my dog,
                 followed by tasty local food and drinks. The way to my heart is through a well paired dinner, wine and
                 dessert combo...and really nice lighting is a plus! </p>
-
-
 
             <img class="images" src="Assets/standing400px.png" alt="web developer headshot" height="200px"
                 width="200px">
@@ -59,24 +72,60 @@
 
             <h2>About My Work</h2>
 
-            <p>Please click the boxes to view samples of my work. This section will be updated as I continue to code and
+            <p>View samples of my work. This section will be updated as I continue to code and
                 create more projects for the duration of Full-Stack Coding Bootcamp and beyond.</p>
-
-            <div class="projects-inner-container">
-
-                <figure>
-                    <a href="https://kgarzelloni.github.io/prework-about-me/"><img src="Assets/code.png"
-                            alt="coding work item here" width="200" height="200"> </a>
-                    <figcaption>"About Me" deployed page.</figcaption>
-                </figure>
-
-                <figure>
-                    <a
-                        href="https://kgarzelloni.github.io/01-code-refactor/uofa-virt-fsf-ft-11-2021-u-lol-master-01-HTML-Git-CSS-02-Homework/01-HTML-Git-CSS/02-Homework/Develop/index.html"><img
-                            src="Assets/code.png" alt="coding work item here" width="200" height="200"></a>
-                    <figcaption>This project was refactoring existing code to meet accessibility criteria.</figcaption>
-                </figure>
+                <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <a href="https://kgarzelloni.github.io/prework-about-me/"></a></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button> <a href="https://kgarzelloni.github.io/01-code-refactor/uofa-virt-fsf-ft-11-2021-u-lol-master-01-HTML-Git-CSS-02-Homework/01-HTML-Git-CSS/02-Homework/Develop/index.html"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Assets/code.png" class="d-block w-90" alt="projects>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>About Me Page</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/horiseon.png" class="d-block w-90" alt="projects">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Code Refactoring</h5>
+                                <p><a href="https://kgarzelloni.github.io/01-code-refactor/uofa-virt-fsf-ft-11-2021-u-lol-master-01-HTML-Git-CSS-02-Homework/01-HTML-Git-CSS/02-Homework/Develop/index.html"></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/scheduler.png" class="d-block w-90" alt="carousel of projects">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Work Day Scheduler Application</h5>
+                                <p> <a href="https://kgarzelloni.github.io/05-work-day-scheduler/"</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/marvel.png" class="d-block w-90" alt="projects">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Marvel Comic Fan Page: Group Project</h5>
+                                <p><a href="https://emilyshurtz94.github.io/Group-Project-1/"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        
         </section>
 
         <section id="resume-updated">
@@ -110,6 +159,7 @@
         <p>Karrie Garzelloni, 2021</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

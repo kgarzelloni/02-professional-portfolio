@@ -4,9 +4,9 @@
 }
 
 header {
-    display:flex;
+    /* display:flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; */
     background-color:#d8d3c7;
     align-items: center;
     border: whitesmoke solid;
